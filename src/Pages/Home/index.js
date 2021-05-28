@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Layout } from '@ui-kitten/components';
+import { Layout } from '@ui-kitten/components';
 
 import Banner from './banner';
 import Details from './details';
