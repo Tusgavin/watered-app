@@ -14,7 +14,7 @@ const OverduePlantsToWaterCell = ({ data }) => {
   return (
      <Layout style={[styles.cellContainer, { borderBottomColor: theme['color-danger-500']}]}>
          <OverduePlantsToWaterIcon />
-         <Text category='h1' style={{ color: theme['color-danger-700']}}>{data.value}</Text>
+         <Text category='h1' style={{ color: theme['color-danger-700'], marginLeft: '8%'}}>{data.value}</Text>
      </Layout>
   );
 }

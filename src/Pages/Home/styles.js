@@ -14,7 +14,9 @@ const styles = StyleSheet.create({
       flex: 2
    },
    activityTitleContainer: {
-      alignItems: 'center'
+      alignItems: 'center',
+      marginBottom: '3.5%',
+      marginTop: '4.5%',
    }
 });
 

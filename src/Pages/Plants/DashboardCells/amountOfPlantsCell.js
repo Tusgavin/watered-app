@@ -14,7 +14,7 @@ const AmountOfPlantsCell = ({ data }) => {
   return (
     <Layout style={[styles.cellContainer, { borderBottomColor: theme['color-success-500'] }]}>
       <AmountOfPlantsIcon />
-      <Text category='h1' style={{ color: theme['color-success-700']}}>{data.value}</Text>
+      <Text category='h1' style={{ color: theme['color-success-700'], marginLeft: '8%' }}>{data.value}</Text>
     </Layout>
   );
 }

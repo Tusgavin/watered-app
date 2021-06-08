@@ -6,6 +6,7 @@ import { EvaIconsPack } from '@ui-kitten/eva-icons';
 import Constants from 'expo-constants';
 
 import Routes from './src/Routes';
+import PlantDetailsRoutes from './src/Routes/plants.routes';
 
 const mainLayoutStyle = {
   flex: 1,
@@ -20,6 +21,7 @@ export default function App() {
       <ApplicationProvider {...eva} theme={eva.light}>
         <Layout style={mainLayoutStyle}>
           <Routes />
+          {/* <PlantDetailsRoutes /> */}
         </Layout>
       </ApplicationProvider>
     </>

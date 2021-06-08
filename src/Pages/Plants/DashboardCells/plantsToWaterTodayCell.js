@@ -13,7 +13,7 @@ const PlantsToWaterTodayCell = ({ data }) => {
   return (
     <Layout style={[styles.cellContainer, { borderBottomColor: theme['color-info-500']}]}>
       <PlantsToWaterTodayIcon />
-      <Text category='h1' style={{ color: theme['color-info-700']}}>{data.value}</Text> 
+      <Text category='h1' style={{ color: theme['color-info-700'], marginLeft: '8%'}}>{data.value}</Text> 
     </Layout>
   );
 }

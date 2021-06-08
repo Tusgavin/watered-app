@@ -51,9 +51,8 @@ const Activity = () => {
    const theme = useTheme();
 
    return (
-      <Layout  style={[
-         styles.activityMainContainer, 
-         { backgroundColor: theme['color-primary-400']}]}>
+      <Layout  style={
+         styles.activityMainContainer}>
          <Layout style={styles.activityTitleContainer} >
             <Text category='h6'> Your Activity </Text>
          </Layout>

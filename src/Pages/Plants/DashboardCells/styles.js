@@ -3,10 +3,10 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
    cellContainer: {
       flex: 1,
-      justifyContent: 'space-around',
+      justifyContent: 'center',
       flexDirection: 'row',
       alignItems: 'center',
-      borderBottomWidth: 4
+      borderBottomWidth: 4,
    },
    cellIcon: {
       width: 32,
