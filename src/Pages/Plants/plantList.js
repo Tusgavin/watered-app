@@ -18,7 +18,17 @@ const fakeData = new Array(20).fill({
   species: 'Orquidea',
   lastTimeWatered: '10/05/2021',
   nextTimeToWater: '30/05/2021',
-  photoName: 'plant.jpeg'
+  photoName: 'plant.jpeg',
+  comments: [{
+    message: 'As folhas estão ficando um pouco marrons',
+    date: '23/05/2021'
+  }, {
+    message: 'Precisamos comprar mais adubo',
+    date: '19/06/2021'
+  }, {
+    message: 'Comecei um experimento de regar com água de arroz',
+    date: '25/08/2021'
+  }]
 });
 
 import fakePhotoProfile from '../../../assets/plant.jpeg';
@@ -53,7 +63,7 @@ const moreDetailsIcon = (props) => {
   return <Icon {...props} fill={theme['color-basic-1100']} style={styles.cellIcon} name='menu' />
 };
 
-const renderPlantActions = () => {
+const renderPlantActions = ({ onMoreDetailsClick }) => {
   return (
     <Layout style={styles.plantButtonContainer}>
       <Button appearance='ghost' accessoryLeft={moreDetailsIcon} onPress={() => onMoreDetailsClick()} />
@@ -62,7 +72,10 @@ const renderPlantActions = () => {
   );
 };
 
-const renderPlant = ({ item, index }) => {
+const renderPlant = ({ item, index, navigation }) => {
+  const onMoreDetailsClick = () => {
+    navigation.navigate('Details');
+  };
 
   return (
     <ListItem 
@@ -70,17 +83,18 @@ const renderPlant = ({ item, index }) => {
     title={() => <ItemHeader title={item.name} />}
     description={() => <ItemDescription species={item.species} lastTimeWatered={item.lastTimeWatered} nextTimeToWater={item.nextTimeToWater} />}
     accessoryLeft={plantAvatar}
-    accessoryRight={renderPlantActions}
+    accessoryRight={() => renderPlantActions({ onMoreDetailsClick })}
     />
   );
 };
 
-const PlantList = ({ navigation }) => {
+const PlantList = (props) => {
   return (
     <Layout style={styles.plantListMainContainer}>
       <List
       data={fakeData}
-      renderItem={renderPlant}
+      renderItem={(item) => renderPlant({ ...item, ...props})}
+      extraData={props}
       >
       </List>
     </Layout>

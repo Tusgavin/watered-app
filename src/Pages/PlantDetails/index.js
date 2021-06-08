@@ -1,12 +1,22 @@
 import React from 'react';
-import { View } from 'react-native';
+import {
+  Layout
+} from '@ui-kitten/components';
 
-// import { Container } from './styles';
+import PlantDetailsHeader from './plantDetailsHeader';
+import CommentsSection from './commentsSection';
+import PlantDetailsActions from './plantDetailsActions';
+
+import styles from './styles';
 
 const PlantDetails = (props) => {
-  console.log(props);
-
-  return <View />;
+  return (
+    <Layout style={styles.plantDetailsMainContainer}>
+      <PlantDetailsHeader {...props} />
+      <CommentsSection {...props} />
+      <PlantDetailsActions {...props} />
+    </Layout>
+  );
 }
 
 export default PlantDetails;
