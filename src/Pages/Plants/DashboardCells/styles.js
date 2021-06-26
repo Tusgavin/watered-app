@@ -1,17 +1,17 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-   cellContainer: {
-      flex: 1,
-      justifyContent: 'center',
-      flexDirection: 'row',
-      alignItems: 'center',
-      borderBottomWidth: 4,
-   },
-   cellIcon: {
-      width: 32,
-      height: 32,
-   }
+  cellContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderBottomWidth: 4,
+  },
+  cellIcon: {
+    width: 32,
+    height: 32,
+  },
 });
 
 export default styles;
