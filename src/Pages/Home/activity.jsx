@@ -54,7 +54,7 @@ const Activity = () => {
       <Layout  style={
          styles.activityMainContainer}>
          <Layout style={styles.activityTitleContainer} >
-            <Text category='h6'> Your Activity </Text>
+            <Text category='h6'> Últimas Atividades </Text>
          </Layout>
          <List
          data={fakeActivityData}

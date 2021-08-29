@@ -14,7 +14,8 @@ const Banner = () => {
         <Avatar
          source={fakePhotoProfile}
          size='giant'
-         shape='round'/>
+         shape='round'
+         style={styles.plantAvatar}/>
          <Text category='h4'>{fakeUsername}</Text>
      </Layout>
   );

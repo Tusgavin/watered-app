@@ -17,6 +17,10 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       marginBottom: '3.5%',
       marginTop: '4.5%',
+   },
+   plantAvatar: {
+      width: 70,
+      height: 70
    }
 });
 

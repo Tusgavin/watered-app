@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Layout
+  Layout,
 } from '@ui-kitten/components';
 
 import PlantDetailsHeader from './plantDetailsHeader';
@@ -9,14 +9,12 @@ import PlantDetailsActions from './plantDetailsActions';
 
 import styles from './styles';
 
-const PlantDetails = (props) => {
-  return (
-    <Layout style={styles.plantDetailsMainContainer}>
-      <PlantDetailsHeader {...props} />
-      <CommentsSection {...props} />
-      <PlantDetailsActions {...props} />
-    </Layout>
-  );
-}
+const PlantDetails = (props) => (
+  <Layout style={styles.plantDetailsMainContainer}>
+    <PlantDetailsHeader {...props} />
+    <CommentsSection {...props} />
+    <PlantDetailsActions {...props} />
+  </Layout>
+);
 
 export default PlantDetails;
