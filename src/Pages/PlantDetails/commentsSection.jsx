@@ -29,15 +29,16 @@ const renderComments = ({ item, index }) => (
 
 const CommentsSection = () => {
   return (
-   <Layout style={styles.plantDeatilsCommentsContainer}>
-      <Layout style={styles.commentSectionTitleContainer}>
-        <Text category="h6">Comentários</Text>
-      </Layout>
-      <List
-      data={fakeComments}
-      renderItem={renderComments}
-      />
-   </Layout>
+    <Layout style={styles.plantDeatilsCommentsContainer}>
+        <Layout style={styles.commentSectionTitleContainer}>
+          <Text category="h6">Comentários</Text>
+        </Layout>
+        <List
+        data={fakeComments}
+        renderItem={renderComments}
+        />
+        <Input />
+    </Layout>
   );
 }
 

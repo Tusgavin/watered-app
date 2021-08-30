@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   plantDeatilsHeaderContainer: {
-    flex: 1.6,
+    flex: 1.5,
   },
   plantDeatilsCommentsContainer: {
     flex: 3.5,
@@ -44,6 +44,9 @@ const styles = StyleSheet.create({
   },
   actionButton: {
     borderRadius: 50
+  },
+  keyboardAddingViewStyle: {
+    flex: 5
   }
 });
 
