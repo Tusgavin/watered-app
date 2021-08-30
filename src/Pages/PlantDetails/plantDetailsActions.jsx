@@ -19,17 +19,17 @@ const waterPlantIcon = () => {
   return <Icon fill={theme['color-primary-100']} style={styles.cellIcon} name="droplet-outline" />;
 };
 
-// const addCommentIcon = () => {
-//   const theme = useTheme();
-//   return <Icon fill={theme['color-primary-100']} style={styles.cellIcon} name="message-circle-outline" />;
-// };
+const editPlantIcon = () => {
+  const theme = useTheme();
+  return <Icon fill={theme['color-primary-100']} style={styles.cellIcon} name="edit-outline" />;
+};
 
 const PlantDetailsActions = () => {
   return (
    <Layout style={styles.plantDetailsActionContainer}>
-     {/* <View>
-      <Button status='success' accessoryLeft={addCommentIcon} style={styles.actionButton} />
-     </View> */}
+     <View>
+      <Button status='warning' accessoryLeft={editPlantIcon} style={styles.actionButton} />
+     </View>
      <View>
       <Button status='primary' accessoryLeft={waterPlantIcon} style={styles.actionButton} />
       </View>
