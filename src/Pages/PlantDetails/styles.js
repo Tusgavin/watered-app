@@ -9,14 +9,15 @@ const styles = StyleSheet.create({
     flex: 1.5,
   },
   plantDeatilsCommentsContainer: {
-    flex: 3.5,
+    flex: 3.8,
+    marginBottom: 15
   },
   plantDetailsActionContainer: {
-    flex: 0.8,
+    flex: 0.7,
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    marginTop: 15,
+    marginTop: 10,
     marginBottom: 15
   },
   plantDeatilsHeaderInfoContainer: {
@@ -47,6 +48,31 @@ const styles = StyleSheet.create({
   },
   keyboardAddingViewStyle: {
     flex: 5
+  },
+  writeCommentContainer: {
+    flexDirection: 'row',
+    flex: 1,
+    alignItems: 'center',
+    marginTop: 10
+  },
+  commentListContainer: {
+    flex: 6
+  },
+  inputCommentContainer: {
+    flex: 5,
+    paddingLeft: 20
+  },
+  sendCommentButtonContainer: {
+    flex: 1,
+    paddingRight: 5,
+    paddingLeft: 10
+  },
+  sendCommentButton: {
+    // borderRadius: 50
+  },
+  sendCommentIcon: {
+    height: 15,
+    width: 15
   }
 });
 

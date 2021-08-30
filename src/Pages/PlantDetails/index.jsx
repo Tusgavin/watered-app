@@ -15,11 +15,11 @@ const PlantDetails = (props) => (
     <KeyboardAvoidingView
     behavior={Platform.OS === "ios" ? "padding" : "height"}
     style={styles.keyboardAddingViewStyle}
-    keyboardVerticalOffset={40}>
+    keyboardVerticalOffset={30}>
       <PlantDetailsHeader {...props} />
+      <PlantDetailsActions {...props} />
       <CommentsSection {...props} />
     </KeyboardAvoidingView>
-    <PlantDetailsActions {...props} />
   </Layout>
 );
 
