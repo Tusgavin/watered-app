@@ -6,6 +6,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
   },
+  addPlantContainer: {
+    flex: 0.8,
+    justifyContent: 'center'
+  },
   plantListMainContainer: {
     flex: 6,
   },
