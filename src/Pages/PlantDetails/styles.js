@@ -6,10 +6,10 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
   },
   plantDeatilsHeaderContainer: {
-    flex: 1.5,
+    flex: 1.8,
   },
   plantDeatilsCommentsContainer: {
-    flex: 3.8,
+    flex: 4,
     marginBottom: 15
   },
   plantDetailsActionContainer: {
@@ -46,9 +46,6 @@ const styles = StyleSheet.create({
   actionButton: {
     borderRadius: 50
   },
-  keyboardAddingViewStyle: {
-    flex: 5
-  },
   writeCommentContainer: {
     flexDirection: 'row',
     flex: 1,
@@ -56,24 +53,8 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   commentListContainer: {
-    flex: 6
+    flex: 1
   },
-  inputCommentContainer: {
-    flex: 5,
-    paddingLeft: 20
-  },
-  sendCommentButtonContainer: {
-    flex: 1,
-    paddingRight: 5,
-    paddingLeft: 10
-  },
-  sendCommentButton: {
-    // borderRadius: 50
-  },
-  sendCommentIcon: {
-    height: 15,
-    width: 15
-  }
 });
 
 export default styles;

@@ -7,6 +7,7 @@ import {
    Icon
 } from '@ui-kitten/components';
 
+
  import styles from './styles';
 
 const deletePlantIcon = () => {
@@ -24,9 +25,17 @@ const editPlantIcon = () => {
   return <Icon fill={theme['color-primary-100']} style={styles.cellIcon} name="edit-outline" />;
 };
 
+const commentPlantIcon = () => {
+  const theme = useTheme();
+  return <Icon fill={theme['color-primary-100']} style={styles.cellIcon} name="message-circle-outline" />;
+};
+
 const PlantDetailsActions = () => {
   return (
    <Layout style={styles.plantDetailsActionContainer}>
+     <View>
+      <Button status='success' accessoryLeft={commentPlantIcon} style={styles.actionButton} />
+     </View>
      <View>
       <Button status='warning' accessoryLeft={editPlantIcon} style={styles.actionButton} />
      </View>
