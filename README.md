@@ -20,7 +20,7 @@ Após isso, vem detalhes do usuário.
 
 Por fim, as últimas atividades que o usuário realizou utilizando o sistema.
 
-![alt text](/githubAssets/Tela_menu_inicial.jpeg "Menu Inicial")
+<img src="/githubAssets/Tela_menu_inicial.jpeg" alt="Menu Inicial" width="350"/>
 
 ### Tela Listagem de Plantas
 
@@ -30,7 +30,7 @@ Seguido isso, apresenta a lista de plantas cadastradas com botão para acessar m
 
 Ao fnal, apresenta o botão de cadastrar uma nova planta.
 
-![alt text](/githubAssets/Tela_Listagem_de_Plantas.jpeg "Listagem de Plantas")
+<img src="/githubAssets/Tela_Listagem_de_Plantas.jpeg" alt="Listagem de Plantas" width="350"/>
 
 ### Tela Mais Detalhes da Planta
 
@@ -40,7 +40,7 @@ Após isso, uma lista de comentários sobre essa planta.
 
 Na parte inferior, um hub de ações com botões para Adicionar Comentário, Editar informações, Aguar e Remover Planta, respectivamente.
 
-![alt text](/githubAssets/Tela_Mais_Detalhes_da_Planta.jpeg "Detalhes da Planta")
+<img src="/githubAssets/Tela_Mais_Detalhes_da_Planta.jpeg" alt="Detalhes da Planta" width="350"/>
 
 ## Backend
  o Backend foi (está sendo) desenvolvido com NodeJS e com o ORM Sequelize. A implementação se encontra no repositório https://github.com/Tusgavin/putiputi-webserver
