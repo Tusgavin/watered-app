@@ -1,10 +1,10 @@
-# putiputi-app
+# watered-app
 
 ### Disclaimer - Esse projeto ainda não está finalizado
 
 ## Introdução
 
-Neste repositório se encontra o código em React Native do aplicativo PutiPuti, criado com intuito de monitorar o bem estar de suas plantas.
+Neste repositório se encontra o código em React Native do aplicativo Watered, criado com intuito de monitorar o bem estar de suas plantas.
 
 O intuito para criação foi monitorar minhas próprias plantas e utilizar a lib UI Kitten para React Native para desenvolver um aplicativo.
 
