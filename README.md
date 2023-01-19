@@ -1,14 +1,12 @@
 # watered-app
 
-### Disclaimer - Esse projeto ainda não está finalizado
-
 ## Introdução
 
-Neste repositório se encontra o código em React Native do aplicativo Watered, criado com intuito de monitorar o bem estar de suas plantas.
+Neste repositório se encontra o código em React Native das telas do aplicativo Watered, criado com intuito de monitorar o bem estar de suas plantas.
 
-O intuito para criação foi monitorar minhas próprias plantas e utilizar a lib UI Kitten para React Native para desenvolver um aplicativo.
+A motivação de estudos deste projeto é aprofundar conhecimentos sobre React Native e explorar a biblioteca de front-end UI-Kitten.
 
-Foi utilizado o Expo durante o desenvolvimento
+Foi utilizado o Expo durante o desenvolvimento.
 
 ## Telas
 
@@ -41,6 +39,3 @@ Após isso, uma lista de comentários sobre essa planta.
 Na parte inferior, um hub de ações com botões para Adicionar Comentário, Editar informações, Aguar e Remover Planta, respectivamente.
 
 <img src="/githubAssets/Tela_Mais_Detalhes_da_Planta.jpeg" alt="Detalhes da Planta" width="350"/>
-
-## Backend
- o Backend foi (está sendo) desenvolvido com NodeJS e com o ORM Sequelize. A implementação se encontra no repositório https://github.com/Tusgavin/putiputi-webserver
